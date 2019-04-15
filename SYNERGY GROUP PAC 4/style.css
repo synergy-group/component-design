@@ -1,0 +1,79 @@
+.card {
+  width: 300px;
+  background: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  border-color: yellow;
+  border-style:double;
+  border-width: thick;
+}
+h2{
+  color:orange;
+  font-style: normal;
+
+
+}
+
+h3{
+  color:red;
+  font-weight: 300;
+  margin: 20px;
+}
+.container {
+  padding: 2px 16px;
+}
+
+
+ img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  width: 300px;
+}
+li{
+  color: blue;
+  list-style-position: inside;
+
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.chat-popup {
+  display: none;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container textarea{
+  width: 100%;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
