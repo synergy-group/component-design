@@ -1,3 +1,6 @@
+body{
+  background-color: BlanchedAlmond;
+}
 .card {
   width: 300px;
   background: #fff;
@@ -8,14 +11,15 @@
   border-width: thick;
 }
 h2{
-  color:orange;
+  color:black;
   font-style: normal;
 
 
 }
 
-h3{
-  color:red;
+
+h2{
+  color:black;
   font-weight: 300;
   margin: 20px;
 }
