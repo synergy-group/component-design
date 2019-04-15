@@ -1,0 +1,52 @@
+body{
+  background-color: grey;
+
+}
+
+
+
+.card{
+  margin :24px auto;
+  width: 320px;
+  border-style: double;
+ border-width: 2px 10px 4px 20px;
+ border-color: blue;
+}
+
+  .card__excerpt{
+    margin:20px ;
+
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.card__media {
+  position: relative;
+  width: 300px;
+}
+.card__media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card__title {
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+
+}
+.card__subtitle {
+  color: #e74c3c;
+  font-size: 15px;
+  margin: 20px;
+}
+.card__meta {
+  color: #ccc;
+  font-size: 14px;
+}
